@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50F2304916F9E9B300F414FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F2304816F9E9B300F414FB /* UIKit.framework */; };
+		50F2304B16F9E9B300F414FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F2304A16F9E9B300F414FB /* Foundation.framework */; };
+		50F2304D16F9E9B300F414FB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F2304C16F9E9B300F414FB /* CoreGraphics.framework */; };
+		50F2305316F9E9B300F414FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50F2305116F9E9B300F414FB /* InfoPlist.strings */; };
+		50F2305516F9E9B300F414FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F2305416F9E9B300F414FB /* main.m */; };
+		50F2305916F9E9B300F414FB /* ControlFunAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F2305816F9E9B300F414FB /* ControlFunAppDelegate.m */; };
+		50F2305B16F9E9B300F414FB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F2305A16F9E9B300F414FB /* Default.png */; };
+		50F2305D16F9E9B300F414FB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F2305C16F9E9B300F414FB /* Default@2x.png */; };
+		50F2305F16F9E9B300F414FB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F2305E16F9E9B300F414FB /* Default-568h@2x.png */; };
+		50F2306216F9E9B300F414FB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F2306016F9E9B300F414FB /* MainStoryboard.storyboard */; };
+		50F2306516F9E9B300F414FB /* ControlFunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F2306416F9E9B300F414FB /* ControlFunViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50F2304516F9E9B300F414FB /* Compass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Compass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F2304816F9E9B300F414FB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		50F2304A16F9E9B300F414FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		50F2304C16F9E9B300F414FB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		50F2305016F9E9B300F414FB /* Compass-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Compass-Info.plist"; sourceTree = "<group>"; };
+		50F2305216F9E9B300F414FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50F2305416F9E9B300F414FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50F2305616F9E9B300F414FB /* Compass-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Compass-Prefix.pch"; sourceTree = "<group>"; };
+		50F2305716F9E9B300F414FB /* ControlFunAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControlFunAppDelegate.h; sourceTree = "<group>"; };
+		50F2305816F9E9B300F414FB /* ControlFunAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControlFunAppDelegate.m; sourceTree = "<group>"; };
+		50F2305A16F9E9B300F414FB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		50F2305C16F9E9B300F414FB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		50F2305E16F9E9B300F414FB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		50F2306116F9E9B300F414FB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		50F2306316F9E9B300F414FB /* ControlFunViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControlFunViewController.h; sourceTree = "<group>"; };
+		50F2306416F9E9B300F414FB /* ControlFunViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControlFunViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50F2304216F9E9B300F414FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F2304916F9E9B300F414FB /* UIKit.framework in Frameworks */,
+				50F2304B16F9E9B300F414FB /* Foundation.framework in Frameworks */,
+				50F2304D16F9E9B300F414FB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50F2303C16F9E9B200F414FB = {
+			isa = PBXGroup;
+			children = (
+				50F2304E16F9E9B300F414FB /* Compass */,
+				50F2304716F9E9B300F414FB /* Frameworks */,
+				50F2304616F9E9B300F414FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50F2304616F9E9B300F414FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50F2304516F9E9B300F414FB /* Compass.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50F2304716F9E9B300F414FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50F2304816F9E9B300F414FB /* UIKit.framework */,
+				50F2304A16F9E9B300F414FB /* Foundation.framework */,
+				50F2304C16F9E9B300F414FB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50F2304E16F9E9B300F414FB /* Compass */ = {
+			isa = PBXGroup;
+			children = (
+				50F2305716F9E9B300F414FB /* ControlFunAppDelegate.h */,
+				50F2305816F9E9B300F414FB /* ControlFunAppDelegate.m */,
+				50F2306016F9E9B300F414FB /* MainStoryboard.storyboard */,
+				50F2306316F9E9B300F414FB /* ControlFunViewController.h */,
+				50F2306416F9E9B300F414FB /* ControlFunViewController.m */,
+				50F2304F16F9E9B300F414FB /* Supporting Files */,
+			);
+			path = Compass;
+			sourceTree = "<group>";
+		};
+		50F2304F16F9E9B300F414FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50F2305016F9E9B300F414FB /* Compass-Info.plist */,
+				50F2305116F9E9B300F414FB /* InfoPlist.strings */,
+				50F2305416F9E9B300F414FB /* main.m */,
+				50F2305616F9E9B300F414FB /* Compass-Prefix.pch */,
+				50F2305A16F9E9B300F414FB /* Default.png */,
+				50F2305C16F9E9B300F414FB /* Default@2x.png */,
+				50F2305E16F9E9B300F414FB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50F2304416F9E9B300F414FB /* Compass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50F2306816F9E9B300F414FB /* Build configuration list for PBXNativeTarget "Compass" */;
+			buildPhases = (
+				50F2304116F9E9B300F414FB /* Sources */,
+				50F2304216F9E9B300F414FB /* Frameworks */,
+				50F2304316F9E9B300F414FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Compass;
+			productName = Compass;
+			productReference = 50F2304516F9E9B300F414FB /* Compass.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50F2303D16F9E9B200F414FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ControlFun;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Albert;
+			};
+			buildConfigurationList = 50F2304016F9E9B200F414FB /* Build configuration list for PBXProject "Compass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 50F2303C16F9E9B200F414FB;
+			productRefGroup = 50F2304616F9E9B300F414FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50F2304416F9E9B300F414FB /* Compass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50F2304316F9E9B300F414FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F2305316F9E9B300F414FB /* InfoPlist.strings in Resources */,
+				50F2305B16F9E9B300F414FB /* Default.png in Resources */,
+				50F2305D16F9E9B300F414FB /* Default@2x.png in Resources */,
+				50F2305F16F9E9B300F414FB /* Default-568h@2x.png in Resources */,
+				50F2306216F9E9B300F414FB /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50F2304116F9E9B300F414FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F2305516F9E9B300F414FB /* main.m in Sources */,
+				50F2305916F9E9B300F414FB /* ControlFunAppDelegate.m in Sources */,
+				50F2306516F9E9B300F414FB /* ControlFunViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50F2305116F9E9B300F414FB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50F2305216F9E9B300F414FB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		50F2306016F9E9B300F414FB /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50F2306116F9E9B300F414FB /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50F2306616F9E9B300F414FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50F2306716F9E9B300F414FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50F2306916F9E9B300F414FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Compass/Compass-Prefix.pch";
+				INFOPLIST_FILE = "Compass/Compass-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		50F2306A16F9E9B300F414FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Compass/Compass-Prefix.pch";
+				INFOPLIST_FILE = "Compass/Compass-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50F2304016F9E9B200F414FB /* Build configuration list for PBXProject "Compass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F2306616F9E9B300F414FB /* Debug */,
+				50F2306716F9E9B300F414FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50F2306816F9E9B300F414FB /* Build configuration list for PBXNativeTarget "Compass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F2306916F9E9B300F414FB /* Debug */,
+				50F2306A16F9E9B300F414FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50F2303D16F9E9B200F414FB /* Project object */;
+}
